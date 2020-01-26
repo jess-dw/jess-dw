@@ -1,0 +1,50 @@
+body {background-color: #47023f;}
+
+/*Menu*/
+
+.nav-link {font-family: 'Open Sans', sans-serif; font-size: 14px; color: #faf8d4 !important;}
+.nav-link:hover {color: white !important;}-/
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5) !important;
+    border-color: #fff !important;
+}
+.navbar {margin-bottom:80px;}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;}
+
+/*Titulo y Parrafo Home*/
+
+.h1texthome { font-family:'Libre Baskerville', serif; font-size: 50px; color: #faf8d4;}
+
+.textamarillo {font-family:'Open Sans', sans-serif; font-size: 14px; color: #faf8d4;}
+
+/*Boton Home*/
+
+.btn-primary {
+	font-family: 'Open Sans', sans-serif; font-size: 16px;
+	font-weight: bold;
+	background-color: transparent;
+	border: 1.5px solid; color: #faf8d4;
+	border-radius: 30px;
+	padding: 8px 20px;
+	margin-top: 40px;
+}
+
+.btn-primary:hover {
+	font-family: 'Open Sans', sans-serif; font-size: 16px;
+	background-color: #faf8d4 ;
+	border: 1.5px solid; color: #faf8d4;
+	color:#47023f;
+	border-radius: 30px;
+	padding: 8px 20px;
+}
+
+/*Footer*/
+
+.textfooter {font-family: 'Open Sans', sans-serif; font-size: 10px; color: #faf8d4;}
+.textfooter {margin-left: 565px;}
+
+.iconos {margin-left: 565px;}
+
