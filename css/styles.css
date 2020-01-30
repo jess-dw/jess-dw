@@ -1,4 +1,5 @@
 body {background-color: #47023f;}
+.body404 {background-color: #ffffff;}
 
 /*Menu*/
 
@@ -44,7 +45,34 @@ body {background-color: #47023f;}
 /*Footer*/
 
 .textfooter {font-family: 'Open Sans', sans-serif; font-size: 10px; color: #faf8d4;}
-.textfooter {margin-left: 565px;}
 
-.iconos {margin-left: 565px;}
 
+/*404*/
+.margin-404 {
+	margin-top: 18%;
+}
+
+.text404 { font-family:'Libre Baskerville', serif; font-size: 90px; color: #47023f;}
+
+.p404 {font-family:'Open Sans', sans-serif; font-size: 14px; color: #47023f;}
+
+/*Boton 404*/
+
+.boton-404 {
+	font-family: 'Open Sans', sans-serif; font-size: 16px;
+	font-weight: bold;
+	background-color: transparent;
+	border: 1.5px solid; color: #47023f;
+	border-radius: 30px;
+	padding: 8px 20px;
+	margin-top: 40px;
+}
+
+.boton-404:hover {
+	font-family: 'Open Sans', sans-serif; font-size: 16px;
+	background-color: #47023f ;
+	border: 1.5px solid; color: #47023f;
+	color:#faf8d4;
+	border-radius: 30px;
+	padding: 8px 20px;
+}
