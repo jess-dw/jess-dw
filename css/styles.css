@@ -1,6 +1,7 @@
 body {background-color: #47023f;}
 .body404 {background-color: #ffffff;}
 
+
 /*Menu*/
 
 .nav-link {font-family: 'Open Sans', sans-serif; font-size: 14px; color: #faf8d4 !important;}
@@ -10,12 +11,15 @@ body {background-color: #47023f;}
     color: rgba(0, 0, 0, 0.5) !important;
     border-color: #fff !important;
 }
-.navbar {margin-bottom:80px;}
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;}
 
 /*Titulo y Parrafo Home*/
+
+.margin {
+	margin-top: 60px;
+}
 
 .h1texthome { font-family:'Libre Baskerville', serif; font-size: 50px; color: #faf8d4;}
 
@@ -76,3 +80,32 @@ body {background-color: #47023f;}
 	border-radius: 30px;
 	padding: 8px 20px;
 }
+
+
+/*Productos*/
+
+/*.carousel-caption {
+	text-align: left;
+	margin-bottom:150px;
+}/*
+
+/*Boton 404*/
+
+.boton-card {
+	font-family: 'Open Sans', sans-serif; font-size: 16px;
+	font-weight: bold;
+	background-color: transparent;
+	border: 1.5px solid; color: #47023f;
+	border-radius: 30px;
+	padding: 8px 50px;	
+}
+
+.boton-card:hover {
+	font-family: 'Open Sans', sans-serif; font-size: 16px;
+	background-color: #47023f ;
+	border: 1.5px solid; color: #47023f;
+	color:#faf8d4;
+	border-radius: 30px;
+	padding: 8px 50px;
+}
+
